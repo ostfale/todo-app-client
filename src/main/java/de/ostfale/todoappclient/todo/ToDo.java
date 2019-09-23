@@ -29,6 +29,17 @@ public class ToDo {
         this.description = description;
     }
 
+    @Override
+    public String toString() {
+        return "ToDo{" +
+                "id='" + id + '\'' +
+                ", description='" + description + '\'' +
+                ", created=" + created +
+                ", modified=" + modified +
+                ", completed=" + completed +
+                '}';
+    }
+
     public String getId() {
         return id;
     }
